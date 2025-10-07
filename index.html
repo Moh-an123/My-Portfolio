@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">Mohan's Portfolio</div>
+    <div class="menu-icon" id="menuIcon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container" id="navContainer">
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="theme-toggle" id="themeToggle"></div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="gradient-text">Code Enthusiast:</span>
+          <span class="accent-text">Crafting the Future, One Line at a Time</span>
+        </h1>
+        <p class="hero-description">
+          I am Mohanraj, an aspiring engineering student with a passion for programming and technology.
+          Proficient in languages such as Java, C, and C++, I thrive on the challenges of software development.
+          My interests extend to Data Structures and Algorithms, where I find joy in solving complex problems
+          and optimizing solutions.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="./mohan.jpg" alt="Mohanraj">
+      </div>
+    </section>
+
+
+    <section id="summary" class="professional-summary">
+      <h2 class="section-title">Professional Summary</h2>
+      <p>
+        Motivated Computer Engineering student with strong foundation in Java, C/C++, and web development.
+        Experienced in building full-stack applications and solving complex algorithmic problems.
+        Seeking software development opportunities to apply technical skills and contribute to innovative projects.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Vehicle Registration Management System</h3>
+          <h4>Java, JDBC, MySQL</h4>
+          <p>Developed a console-based vehicle registration system using Java and JDBC with MySQL database integration.
+            Implemented CRUD operations for vehicle data management, including registration, updates, deletion, and
+            search functionality. Features object-oriented design with separate layers for data access (DAO), business
+            logic, and database connectivity using prepared statements for secure data handling.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Blog Platform</h3>
+          <h4>MERN Stack</h4>
+          <p>Architected and deployed a dynamic blog platform using React.js with the NextUI component library for a
+            modern, responsive interface that adapts seamlessly across devices. Implemented MongoDB database for
+            efficient document storage, content queries and relationships.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Document Analyzer</h3>
+          <h4>HTML, CSS, JavaScript, Node.js</h4>
+          <p>Create a Node.js project using HTML and CSS to build a document analyzer. Users can upload two documents,
+            and the system highlights differences, additions, and deletions between them. Utilize libraries like `diff`
+            for text comparison.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Tic Tac Toe Game</h3>
+          <h4>HTML, CSS, JavaScript</h4>
+          <p>Create a simple Tic Tac Toe game using HTML, CSS, and JavaScript. The project includes a responsive and
+            visually appealing UI design, logic for two-player interactions, and a winner determination mechanism.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <h4>MERN Stack</h4>
+          <p>Develop a MERN (MongoDB, Express.js, React.js, Node.js) stack ToDo list application. Users can add, edit,
+            delete, and mark tasks as completed. The backend utilizes Express.js to handle API requests, communicates
+            with MongoDB for data storage, while the frontend, built with React.js, offers a dynamic and responsive user
+            interface.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">Education</h2>
+      <ul class="education-list">
+        <li>
+          <span>2018-2019</span><br>
+          SSLC - R.G Matric Hr. Sec. School<br>
+          <!-- Mark: 431 -->
+        </li>
+        <li>
+          <span>2020-2021</span><br>
+          HSC - R.G Matric Hr. Sec. School<br>
+          <!-- Mark: 538.44 -->
+        </li>
+        <li>
+          <span>2021-Present</span><br>
+          B.E - ECE, Karpagam College of Engineering<br>
+          <!-- CGPA: 7.89 -->
+        </li>
+      </ul>
+
+      <div class="cv-download">
+        <a href="./image/717821L330_MOHANRAJ V (1).pdf" download>
+          <button>Download My Resume</button>
+        </a>
+      </div>
+
+
+    </section>
+    <section id="skills" class="tech-proficiencies">
+      <h2 class="section-title">Technical Proficiencies</h2>
+      <div class="tech-list">
+        <div class="tech-item"><strong>Programming Languages:</strong> Java, C, C++, JavaScript</div>
+        <div class="tech-item"><strong>Web Technologies:</strong> HTML5, CSS3, React.js, Node.js, Express.js</div>
+        <div class="tech-item"><strong>Databases:</strong> MySQL, MongoDB</div>
+        <div class="tech-item"><strong>Tools & Platforms:</strong>  GitHub, VS Code</div>
+        <div class="tech-item"><strong>Concepts:</strong> Data Structures, Algorithms, OOP, RESTful
+          APIs</div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2 class="section-title">Certificates</h2>
+      <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem;">Professional Certifications &
+        Achievements</p>
+
+      <div class="certificates-grid">
+        <div class="certificate-card">
+          <div class="cert-icon">✓</div>
+          <h3 class="cert-name">Data Structures and Algorithms Using Java</h3>
+          <p class="cert-info">Issued by: NPTEL</p>
+
+          <div class="cert-skills">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">Programming</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Advanced understanding of fundamental data structures including arrays, linked lists, stacks, queues, trees,
+            graphs, and hash tables. Proficient in algorithm design and analysis, sorting and searching algorithms, time
+            and space complexity analysis, and problem-solving techniques for competitive programming.
+          </p>
+          <a href="./image/certificate/Data Structure And Algorithms Using Java.pdf" target="_blank"
+            class="cert-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+          <div class="cert-icon">🎓</div>
+          <h3 class="cert-name">Introduction to Programming
+            in C
+            r</h3>
+          <p class="cert-info">Issued by: NPTEL</p>
+          <div class="cert-skills">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">Programming</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+
+            Comprehensive foundation in C programming covering syntax, control structures, functions, arrays, pointers,
+            dynamic memory allocation, and file handling. Emphasis on structured programming principles and efficient
+            code development.
+
+          </p>
+          <a href="./image/certificate/Introduction To Programming In C-1.pdf" target="_self" class="cert-btn">View
+            Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+          <div class="cert-icon">💻</div>
+          <h3 class="cert-name">Meta Frontend Development</h3>
+          <p class="cert-info">Issued by: Coursera (Meta)</p>
+          <div class="cert-skills">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Comprehensive training in front-end web development technologies and frameworks.
+          </p>
+          <a href="#" class="cert-btn"> Ongoing</a>
+        </div>
+        <div class="certificate-card">
+          <div class="cert-icon">📱</div>
+          <h3 class="cert-name"> Frontend Developer</h3>
+          <p class="cert-info">Issued by: HackerRank</p>
+
+          <div class="cert-skills">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+
+            Proficiency in modern frontend development technologies including HTML5, CSS3, JavaScript ES6+, responsive
+            web design, DOM manipulation, React framework, state management, and API integration. Capable of building
+            interactive, user-friendly web interfaces with cross-browser compatibility.
+          </p>
+          <a href="./image/certificate/" class="cert-btn">View Certificate</a>
+        </div>
+        <div class="certificate-card">
+          <div class="cert-icon">💻</div>
+          <h3 class="cert-name">Java (Basics)</h3>
+          <p class="cert-info">Issued by: HackerRank</p>
+          <div class="cert-skills">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Programming</span>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Fundamental Java programming skills including object-oriented programming concepts, classes and objects,
+            inheritance, polymorphism, interfaces, exception handling, and collections framework. Strong foundation in
+            Java syntax and core APIs.
+          </p>
+          <a href="./image/certificate/java_basic certificate.pdf" target="_self" class="cert-btn">View Certificate</a>
+        </div>
+      </div>
+    </section>
+  
+    </section>
+    <section id="links" class="links-section">
+      <h2 class="section-title">Profiles & Links</h2>
+      <a rel="noopener noreferrer" href="https://github.com/Moh-an123" target="_blank">GitHub</a>
+      <a rel="noopener noreferrer" href="https://linkedin.com/in/vmohanraj" target="_blank">LinkedIn</a>
+      <a rel="noopener noreferrer" href="https://leetcode.com/mohan_777" target="_blank">LeetCode</a>
+      <a rel="noopener noreferrer" href="https://www.hackerrank.com/profile/mohanraj08022004" target="_blank">HackerRank</a>
+      <a rel="noopener noreferrer" href="https://mohanpf.netlify.app" target="_blank">Portfolio</a>
+    </section>
+
+    <!-- Soft Skills -->
+    <section class="soft-skills">
+      <h2 class="section-title">Soft Skills</h2>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+        <li>Time Management</li>
+        <li>Communication</li>
+        <li>Quick Learner</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-content">
+      <h3 class="footer-title">Contact Information</h3>
+      <p><strong>Name:</strong> Mohanraj</p>
+      <p><strong>Email:</strong> mohanraj08022004@gmail.com</p>
+    </div>
+
+
+    <p style="margin-top: 2rem;">&copy; 2024-2025 Mohanraj. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+
+    // Mobile Menu Toggle
+    const menuIcon = document.getElementById('menuIcon');
+    const navContainer = document.getElementById('navContainer');
+
+    menuIcon.addEventListener('click', () => {
+      menuIcon.classList.toggle('active');
+      navContainer.classList.toggle('active');
+    });
+
+    // Close menu when clicking on a link
+    document.querySelectorAll('.navbar a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuIcon.classList.remove('active');
+        navContainer.classList.remove('active');
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navContainer.contains(e.target) && !menuIcon.contains(e.target)) {
+        menuIcon.classList.remove('active');
+        navContainer.classList.remove('active');
+      }
+    });
+
+    // Certificate card animation
+    document.querySelectorAll('.certificate-card').forEach(card => {
+      card.addEventListener('click', function (e) {
+        if (!e.target.classList.contains('cert-btn')) {
+          this.style.transform = 'scale(0.98)';
+          setTimeout(() => {
+            this.style.transform = '';
+          }, 100);
+        }
+      });
+    });
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
